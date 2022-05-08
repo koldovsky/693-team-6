@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;700&display=swap');
+
+.header-contacts__hours-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.header-contacts__hours {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #099dd0;
+}
+.header-container {
+    background-color: antiquewhite;
+}
+.header-contacts {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-contacts__phone {
+    color: #222222;
+}
+
+.banner {
+    background-image: url(/img/banner.png);
+    width: 100%;
+    height: 80vh;
+}
+
+.header-banner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 235px 0 200px 0;
+}   
+
+.navigation {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+
+}
+
