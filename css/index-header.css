@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 .header-contacts__hours-text {
     font-family: 'Lato', sans-serif;
@@ -13,7 +13,7 @@
 }
 
 .header-container {
-    background-color: antiquewhite;
+    background-color: #f5eee7;
 }
 
 .header-contacts {
@@ -26,8 +26,27 @@
 }
 
 .header-contacts__phone {
-    color: #222222;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
 }
+
+.header-contacts__phone:hover {
+    text-decoration: underline;
+   }
+
+.header-contacts__mail {
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-contacts__mail:hover {
+    text-decoration: underline;
+   }
+
 
 .banner {
     background-image: url(/img/banner.png);
@@ -56,6 +75,39 @@
     padding: 40px;
 }
 
+.header-nav a {
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+   }
+
 .header-icon {
     padding: 30px;
 }
+
+.header-banner__paragraph {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #222222;
+    font-size: 19px;
+    padding: 2px;
+}
+
+a.header-banner__appointment {
+    display: inline-block;
+    background: #2196f3;
+    color: #fff;
+    padding: 12px;
+    margin-top: 52px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;  
+}
+
