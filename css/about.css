@@ -1,0 +1,116 @@
+.about {
+    background-color: var(--background-light-color);
+    padding-top: 125px;
+}
+
+.about__main-text__inner {
+    max-width: 1200px;
+    padding: 0 40px 30px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.about__main-text__inner img {
+    max-width: 470px;
+    max-height: 100%;
+    padding: 0 15px;
+}
+
+.about__main-text__inner__text {
+    padding: 0 15px;
+    max-width: 670px;
+}
+
+.about__h2 {
+    font-family: Martel;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--header-dark-color);
+}
+
+.about__subheader {
+    font-family: Lato;
+    font-size: 21px;
+    line-height: 29.4px;
+    font-weight: 400;
+    color: var(--subheader-dark-color);
+}
+
+.about__padding {
+    padding: 15px 0;
+    display: flex;
+}
+
+.about__padding__line {
+    height: 3px;
+    width: 10%;
+    background-color: rgb(9, 157, 208);
+}
+
+.about__biography {
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--main-text-dark-color);
+    margin-top: 25px;
+}
+
+.button {
+    background-color: var(--button-background-color);
+    border: none;
+    color: var(--button-text-inside-color);
+    padding: 18px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Lato;
+    font-size: 16.5px;
+    font-weight: 600;
+    margin-top: 35px;
+    border-radius: 7px;
+}
+
+.about__diplomas {
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__diplomas {
+
+}
+
+.diplom {
+    display: inline-block;
+    padding: 0 15px;
+
+}
+
+.diplom__logo {
+
+}
+
+.diplom__h4 {
+    font-family: Lato;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 20px;
+    max-width: 100%;
+    color: var(--header-dark-color);
+}
+
+.diplom__text {
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-top: 25px;
+    max-width: 100%;
+    word-wrap: break-word;
+    color: var(--main-text-dark-color);
+}
