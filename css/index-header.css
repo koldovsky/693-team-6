@@ -11,9 +11,11 @@
     font-weight: bold;
     color: #099dd0;
 }
+
 .header-container {
     background-color: antiquewhite;
 }
+
 .header-contacts {
     max-width: 1200px;
     margin: 0 auto;
@@ -39,7 +41,7 @@
     padding: 235px 0 200px 0;
 }   
 
-.navigation {
+.header-navigation {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -52,6 +54,8 @@
     display: flex;
     gap: 20px;
     padding: 40px;
-
 }
 
+.header-icon {
+    padding: 30px;
+}
