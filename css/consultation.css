@@ -68,10 +68,32 @@ a.consultation-button {
 
 .banner-consultation-before {
     background-image: url(/img/consultations/before-consultations.png);
-    width: 100%;
-    height: 80vh;
+    width: 50%;
+    background-size: cover;
 }
 
 .consultation__block-before {
     background-color: #f5eee7;
+    width: 50%;
+}
+
+.consultation-before {
+    display: flex;
+    height: 750px;
+}
+
+.banner-consultation-after {
+    background-image: url(/img/consultations/after-consultations.png);
+    width: 50%;
+    background-size: cover;
+}
+
+.consultation__block-after {
+    background-color: #f5eee7;
+    width: 50%;
+}
+
+.consultation-after {
+    display: flex;
+    height: 750px;
 }
