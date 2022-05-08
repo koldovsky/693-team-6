@@ -10,3 +10,16 @@ h1 {
     font-family: 'Martel', serif;
     color: #25406e;
 }
+
+:root {
+    --header-dark-color: rgb(37, 64, 110);
+    --header-light-color: rgb(255, 255, 255);
+    --button-background-color: rgb(9, 157, 208);
+    --button-text-inside-color: rgb(255, 255, 255);
+    --subheader-dark-color: rgb(77, 76, 76);
+    --main-text-dark-color: rgb(100, 100, 100);
+    --subheader-light-color: rgb(255, 255, 255);
+    --main-text-light-color: rgb(217, 217, 217);
+    --background-light-color: rgb(245, 238, 231);
+    --background-dark-color: rgb(37, 64, 110);
+}
