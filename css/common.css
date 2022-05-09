@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Lato&family=Montserrat:wght@400;700&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
     
 }
-
 h1 {
     font-size: 64px;
     font-family: 'Martel', serif;
     color: #25406e;
 }
-
 :root {
     --header-dark-color: rgb(37, 64, 110);
     --header-light-color: rgb(255, 255, 255);

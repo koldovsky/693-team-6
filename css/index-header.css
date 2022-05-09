@@ -5,17 +5,14 @@
     font-weight: bold;
     padding-left: 40px;
 }
-
 .header-contacts__hours {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: #099dd0;
 }
-
 .header-container {
     background-color: #f5eee7;
 }
-
 .header-contacts {
     max-width: 1200px;
     margin: 0 auto;
@@ -24,41 +21,34 @@
     display: flex;
     justify-content: space-between;
 }
-
 .header-contacts__phone {
     color: #000000;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     text-decoration: none;
 }
-
 .header-contacts__phone:hover {
     text-decoration: underline;
    }
-
 .header-contacts__mail {
     color: #000000;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     text-decoration: none;
 }
-
 .header-contacts__mail:hover {
     text-decoration: underline;
    }
-
 .banner {
     background-image: url(/img/banner.png);
     width: 100%;
     background-size: cover;
 }
-
 .header-banner {
     max-width: 1200px;
     margin: 0 auto;
     padding: 235px 0 200px 0;
 }   
-
 .header-navigation {
     max-width: 1200px;
     margin: 0 auto;
@@ -66,28 +56,23 @@
     justify-content: space-between;
     height: 100px;
 }
-
 .header-nav ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
     padding: 40px;
 }
-
 .header-nav a {
     color: #000000;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
 }
-
 .header-nav a:hover {
     text-decoration: underline;
    }
-
 .header-icon {
     padding: 30px;
 }
-
 .header-banner__paragraph {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -95,7 +80,6 @@
     font-size: 19px;
     padding: 2px;
 }
-
 a.header-banner__appointment {
     display: inline-block;
     background: #2196f3;
