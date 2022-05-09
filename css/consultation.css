@@ -6,26 +6,22 @@
     color: #25406e;
     font-size: 42px;
 }
-
 .consultation__block-before p {
     font-family: 'Lato', sans-serif;
     color: rgb(77,76,76);
     font-size: 19px;
 }
-
 .consultation__block-before ul {
     font-family: 'Lato', sans-serif;
     color: #646464;
     font-size: 17px;
 }
-
 .consultation__block-before-italic {
     font-family: 'Lato', sans-serif;
     color: #8f8f8f;
     font-size: 17px;
     font-style: italic;
 }
-
 a.consultation-button {
     display: inline-block;
     background: #2196f3;
@@ -39,60 +35,50 @@ a.consultation-button {
     line-height: 1;
     font-weight: 100;  
 }
-
 .consultation__block-after h2 {
     font-family: 'Martel', sans-serif;
     font-weight: bold;
     color: #25406e;
     font-size: 42px;
 }
-
 .consultation__block-after p {
     font-family: 'Lato', sans-serif;
     color: rgb(77,76,76);
     font-size: 19px;
 }
-
 .consultation__block-after ul {
     font-family: 'Lato', sans-serif;
     color: #646464;
     font-size: 17px;
 }
-
 .consultation__block-after-italic {
     font-family: 'Lato', sans-serif;
     color: #8f8f8f;
     font-size: 17px;
     font-style: italic;
 }
-
 .banner-consultation-before {
-    background-image: url(/img/consultations/before-consultations.png);
+    background-image: url(../img/consultations/before-consultations.png);
     width: 50%;
     background-size: cover;
 }
-
 .consultation__block-before {
     background-color: #f5eee7;
     width: 50%;
 }
-
 .consultation-before {
     display: flex;
     height: 750px;
 }
-
 .banner-consultation-after {
-    background-image: url(/img/consultations/after-consultations.png);
+    background-image: url(../img/consultations/after-consultations.png);
     width: 50%;
     background-size: cover;
 }
-
 .consultation__block-after {
     background-color: #f5eee7;
     width: 50%;
 }
-
 .consultation-after {
     display: flex;
     height: 750px;

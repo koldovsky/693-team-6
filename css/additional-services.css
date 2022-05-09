@@ -1,6 +1,6 @@
 .additional-services_h2 {
     font-size: 42px;
-    font-family: "Martel" sans-serif;
+    font-family: "Martel", sans-serif;
     color: #25406e;
     text-align: center;
 }
@@ -23,6 +23,12 @@
 }
 
 .tests-explanation-p {
+<<<<<<< HEAD
     font-size: 17px;
     font-family: "Lato" sans-serif;
 }
+=======
+font-size: 17px;
+font-family: "Lato", sans-serif;
+}
+>>>>>>> 057b1413fa3b5beaeda1a0fa2ca58ce99b794ea7
