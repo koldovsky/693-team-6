@@ -67,7 +67,7 @@ a.consultation-button {
 }
 
 .banner-consultation-before {
-    background-image: url(/img/consultations/before-consultations.png);
+    background-image: url(../img/consultations/before-consultations.png);
     width: 50%;
     background-size: cover;
 }
@@ -83,7 +83,7 @@ a.consultation-button {
 }
 
 .banner-consultation-after {
-    background-image: url(/img/consultations/after-consultations.png);
+    background-image: url(../img/consultations/after-consultations.png);
     width: 50%;
     background-size: cover;
 }
