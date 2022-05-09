@@ -2,6 +2,12 @@
     font-size: 42px;
     font-family: "Martel" sans-serif;
     color: #25406e;
+    text-align: center;
+}
+.additional-services_p {
+    font-size: 19px;
+    font-family: sans-serif;
+    text-align: center;
 }
 .medical_tests-p {
     font-size: 21px;
@@ -10,6 +16,7 @@
 .services_block_images img {
     width: 338px;
     height: 222.99px;
+    padding: 15px;
 }
 .tests-explanation-p {
 font-size: 17px;
