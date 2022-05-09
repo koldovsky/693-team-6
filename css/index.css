@@ -3,5 +3,10 @@
 @import url(index-footer.css);
 @import url(consultation.css);
 @import url(about.css);
+<<<<<<< HEAD
 @import url(index-main.css);
 
+=======
+@import url(additional-services.css);
+@import url(feedbacks.css);
+>>>>>>> 7ae862de1558c42d7ea7dcda0872762fdd5ba25c
