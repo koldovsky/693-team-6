@@ -34,7 +34,7 @@
 
 .header-contacts__phone:hover {
     text-decoration: underline;
-   }
+}
 
 .header-contacts__mail {
     color: #000000;
@@ -45,7 +45,7 @@
 
 .header-contacts__mail:hover {
     text-decoration: underline;
-   }
+}
 
 .banner {
     background-image: url(/img/banner.png);
@@ -57,7 +57,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 235px 0 200px 0;
-}   
+}
 
 .header-navigation {
     max-width: 1200px;
@@ -82,7 +82,7 @@
 
 .header-nav a:hover {
     text-decoration: underline;
-   }
+}
 
 .header-icon {
     padding: 30px;
@@ -107,6 +107,5 @@ a.header-banner__appointment {
     font-family: Tahoma;
     font-size: 18px;
     line-height: 1;
-    font-weight: 100;  
+    font-weight: 100;
 }
-
