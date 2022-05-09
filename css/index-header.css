@@ -29,12 +29,8 @@
 }
 .header-contacts__phone:hover {
     text-decoration: underline;
-<<<<<<< HEAD
 }
 
-=======
-   }
->>>>>>> 057b1413fa3b5beaeda1a0fa2ca58ce99b794ea7
 .header-contacts__mail {
     color: #000000;
     font-family: 'Lato', sans-serif;
@@ -43,12 +39,8 @@
 }
 .header-contacts__mail:hover {
     text-decoration: underline;
-<<<<<<< HEAD
 }
 
-=======
-   }
->>>>>>> 057b1413fa3b5beaeda1a0fa2ca58ce99b794ea7
 .banner {
     background-image: url(/img/banner.png);
     width: 100%;
@@ -58,12 +50,8 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 235px 0 200px 0;
-<<<<<<< HEAD
 }
 
-=======
-}   
->>>>>>> 057b1413fa3b5beaeda1a0fa2ca58ce99b794ea7
 .header-navigation {
     max-width: 1200px;
     margin: 0 auto;
@@ -84,12 +72,8 @@
 }
 .header-nav a:hover {
     text-decoration: underline;
-<<<<<<< HEAD
 }
 
-=======
-   }
->>>>>>> 057b1413fa3b5beaeda1a0fa2ca58ce99b794ea7
 .header-icon {
     padding: 30px;
 }
