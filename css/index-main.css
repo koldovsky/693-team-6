@@ -2,6 +2,7 @@
     background-color: rgb(11, 115, 150);
 } 
 /* logo */
+
 .logo_1{
     margin-left: 50px;
     color:rgb(255, 255, 255);
@@ -9,10 +10,83 @@
     margin-bottom: 20px;    
 }
 /* text */
+
+.text_girl{
+    border: 1px solid black;
+    margin: 20px;
+    width: 400px; 
+}
+
 .text-content_1{
     margin-top: 20px;
     margin-left: 50px;
     padding-left: 90px;
-    width: 290px;
+    
+}
+
+/* img */
+
+.img-content{
+    border: 1px solid black;
+    margin: 20px;
+    width: 500px;
+    justify-content: space-around;
+    flex-direction: column-reverse;        
+}
+
+.img_1{
+    border: 1px solid black;
+    margin: 10px;
+    width: 150px;
+}
+
+.img_1_text{
+    margin: 10px;
+}
+
+.img-content_1{
+    margin: 10px;
+}
+
+.img_2{
+    border: 1px solid black;
+    margin: 10px;
+    width: 150px;       
+}
+
+.img_2_text{
+    margin: 10px;
+}
+
+.img-content_2{
+    margin: 10px;
+}
+
+.img_3{
+    border: 1px solid black;
+    margin: 10px;
+    width: 150px;
+}
+
+.img_3_text{
+    margin: 10px;
+}
+
+.img-content_3{
+    margin: 10px;
+}
+
+.img_4{
+    border: 1px solid black;
+    margin: 10px;
+    width: 150px;
+}
+
+.img_4_text{
+    margin: 10px;
+}
+
+.img-content_4{
+    margin: 10px;
 }
 
