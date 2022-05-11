@@ -1,0 +1,112 @@
+.blog__h2 {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: Martel, serif;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 50.4px;
+    color: var(--header-dark-color);
+}
+
+.blog__header p {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 19px;
+    color: var(--main-text-dark-color);
+}
+
+.blog__content {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+}
+
+.blogg__content1 {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid var(--blog-border-light);
+}
+
+.content-article {
+    color: var(--blog-section-header);
+    font-size: 14px;
+    line-height: 1.5px;
+    padding: 10px;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+
+.blogg__content1 h3 {
+    font-family: Martel, serif;
+    font-size: 21px;
+    text-align: left;
+    padding: 10px;
+    line-height: 31.5px;
+}
+
+.content-blog {
+    font-family: Lato, sans-serif;
+    font-size: 17px;
+    color: var(--main-text-dark-color);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.date-blog {
+    font-size: 14px;
+    line-height: 1.5px;
+    padding: 10px;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+
+.blogg__content2 {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid var(--blog-border-light);
+}
+
+.blogg__content2 h3 {
+    font-family: Martel, serif;
+    font-size: 21px;
+    text-align: left;
+    padding: 10px;
+    line-height: 31.5px;
+}
+
+.blogg__content3 {
+    background-image: url(../img/blog-background.png);
+    width: 100%;
+    opacity: 0.6;
+    background-color: var(--background-dark-color);
+    background-size: cover;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid var(--blog-border-light);
+    background-color: var(--background-dark-color);
+}
+
+.content3 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content3 p {
+    color: var(--subheader-light-color);
+    font-size: 14px;
+    line-height: 1.5px;
+    padding: 10px;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+
+.content3 h3 {
+    font-family: Martel, serif;
+    font-size: 21px;
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+    line-height: 31.5px;
+    color: var(--subheader-light-color);
+}
