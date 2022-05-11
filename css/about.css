@@ -1,55 +1,120 @@
 .about {
     background-color: var(--background-light-color);
-    padding-top: 125px;
+    padding-top: 90px;
 }
-.about__margin {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1300px;
+
+@media (min-width: 768px) {
+    .about {
+        padding-top: 107.5px;
+    } 
 }
-.about__main-text__inner {
-    display: flex;
+
+@media (min-width: 992px) {
+    .about {
+        padding-top: 125px;
+    } 
 }
-.about__main-text__inner img {
-    max-width: 470px;
-    max-height: 100%;
+
+.about__container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 9px;
+}
+@media (min-width: 768px) {
+    .about__main-text {
+        display: flex;
+    } 
+}
+
+.about__main-text__img {
     padding: 0 15px;
 }
-.about__main-text__inner__text {
-    padding: 0 15px;
-    max-width: 670px;
+
+.about__main-text img {
+    min-width: 272px;
 }
+
+@media (min-width: 768px) {
+    .about__main-text img {
+        max-width: 470px;
+    } 
+}
+
+.about__main-text_hanna {
+    padding: 0 15px;
+    min-width: 272px;
+    margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+    .about__main-text_hanna {
+        margin: 0;
+    } 
+}
+
 .about__h2 {
     font-family: Martel;
-    font-size: 42px;
-    font-weight: 800;
-    line-height: 1.2;
+    font-size: 34px;
+    font-weight: 1000;
+    line-height: 40.8px;
     color: var(--header-dark-color);
 }
+
+@media (min-width: 768px) {
+    .about__h2 {
+        font-size: 38px;
+        line-height: 45.6px;
+    } 
+}
+
+@media (min-width: 992px) {
+    .about__h2 {
+        font-size: 42px;
+        line-height: 50.4px;
+    } 
+}
+
 .about__subheader {
     font-family: Lato;
-    font-size: 21px;
-    line-height: 29.4px;
+    font-size: 18px;
+    line-height: 25.2px;
     font-weight: 400;
     color: var(--subheader-dark-color);
 }
+
+@media (min-width: 768px) {
+    .about__subheader {
+        font-size: 19px;
+        line-height: 26.6px;
+    } 
+}
+
+@media (min-width: 992px) {
+    .about__subheader {
+        font-size: 21px;
+        line-height: 29.4px;
+    } 
+}
+
 .about__padding {
     padding: 15px 0;
-    display: flex;
 }
+
 .about__padding__line {
     height: 3px;
     width: 10%;
     background-color: rgb(9, 157, 208);
 }
+
 .about__biography {
     font-family: Lato;
     font-size: 17px;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 27.2px;
     color: var(--main-text-dark-color);
     margin-top: 25px;
 }
+
 .button {
     background-color: var(--button-background-color);
     border: none;
@@ -64,18 +129,20 @@
     margin-top: 35px;
     border-radius: 7px;
 }
+
 .about__diplomas {
     box-sizing: border-box;
     padding-top: 30px;
     padding-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
-}
-.diplom {
-    display: inline-block;
     padding: 0 15px;
-    max-width: 270px;
 }
+
+.diplom {
+
+}
+
 .diplom__h4 {
     font-family: Lato;
     font-size: 19px;
@@ -84,6 +151,7 @@
     max-width: 100%;
     color: var(--header-dark-color);
 }
+
 .diplom__text {
     font-family: Lato;
     font-size: 17px;
@@ -91,6 +159,5 @@
     line-height: 1.6;
     margin-top: 25px;
     max-width: 100%;
-    word-wrap: break-word;
     color: var(--main-text-dark-color);
 }
