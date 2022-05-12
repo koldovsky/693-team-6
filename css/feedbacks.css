@@ -1,5 +1,5 @@
 .feedbacks {
-    background: url(img/feedbacks-baground.svg);
+    background: url(../img/feedbacks/feedbacks-baground.svg);
     color: var(--subheader-light-color);
     text-align: center;
     padding-bottom: 120px;
