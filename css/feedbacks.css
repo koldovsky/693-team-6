@@ -1,13 +1,17 @@
 .feedbacks {
-    background: url(../img/feedbacks/feedbacks-baground.svg);
+    background: url(img/feedbacks-baground.svg);
     color: var(--subheader-light-color);
     text-align: center;
-    padding: 120px;
+    padding-bottom: 120px;
 }
 
-.feedbacks__hr {
+.feedback_photo {
+    width: 30%;
+}
+
+.line__hr {
     margin: 0 auto;
-    width: 60px;
+    width: 20px;
     background: #099DD0;
     border: 1.5px double #099DD0;
     margin-bottom: 20px;
@@ -15,23 +19,20 @@
 
 .feedbacks__h2 {
     font-family: Martel, serif;
-    font-size: 42px;
+    font-size: 34px;
     font-weight: 800;
-    line-height: 50.4px;
-    padding-bottom: 10px;
+    line-height: 40.8px;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 .feedbacks__header {
-    display: block;
     font-family: Lato, sans-serif;
     font-size: 21px;
 }
 
 .feedbacks__content {
-    display: block;
-    width: 70%;
     margin: 0 auto;
-    padding: 50px;
     font-family: Lato, sans-serif;
     font-size: 15px;
     font-weight: 700;
@@ -47,16 +48,12 @@ h3 {
 }
 
 .text_feedback {
-    vertical-align: baseline;
     font-family: Lato, sans-serif;
     font-size: 21px;
-    padding: 20px;
     font-style: italic;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 1.4;
     font-weight: 400;
-    text-decoration: none;
-    letter-spacing: 0;
     color: rgba(217, 217, 223, 0.96);
 }
 
@@ -64,15 +61,15 @@ h3 {
     background: #F5EEE7;
     display: block;
     text-align: center;
-    padding: 120px;
 }
 
 .hospitals__h2 {
     font-family: Martel, serif;
-    font-size: 42px;
+    font-size: 34px;
     color: rgb(37, 64, 110);
     font-weight: 800;
-    padding: 10px;
+    line-height: 40.8px;
+    padding: 80px 20px 15px 20px;
 }
 
 .hospitals__p {
@@ -80,16 +77,15 @@ h3 {
     font-size: 19px;
     font-weight: 400;
     color: rgb(77, 76, 76);
+    padding: 0px 20px 50px 20px;
 }
 
 .hospital__content {
-    padding: 45px;
     font-family: Martel, serif;
     font-size: 21px;
     line-height: 31.5px;
     font-weight: 700;
     color: rgb(34, 34, 34);
-    display: inline-block;
 }
 
 .hospital__photo {
