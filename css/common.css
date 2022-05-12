@@ -24,5 +24,7 @@ h1 {
     --background-light-color: rgb(245, 238, 231);
     --background-dark-color: rgb(37, 64, 110);
     font-family: 'Lato', sans-serif;
+    --blog-section-header: rgb(68, 173, 107);
+    --blog-border-light: #FAF6F3;
 }
 
