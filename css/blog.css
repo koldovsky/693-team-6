@@ -109,3 +109,36 @@
     line-height: 40.5px;
     color: var(--subheader-light-color);
 }
+@media(min-width:786px) {
+    .line__hr {
+        margin: 0 auto;
+        width: 40px;
+        background: #099DD0;
+        border: 2px double #099DD0;
+        margin-bottom: 20px;
+    }
+
+    .blog__content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .blogg__content3 {
+        background: url(img/blog_background.webp) round;
+        background-position: absolute;
+        background-size: 100%;
+        opacity: 1;
+        background-clip: content-box;
+        margin: 50px 30px;
+        border: 2px solid var(--blog-border-light);
+        flex-basis: 30%;
+    }
+
+    .blogg__content1 {
+        flex-basis: 30%;
+    }
+
+    .blogg__content2 {
+        flex-basis: 30%;
+    }
+}
