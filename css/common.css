@@ -26,5 +26,9 @@ h1 {
     font-family: 'Lato', sans-serif;
     --blog-section-header: rgb(68, 173, 107);
     --blog-border-light: #FAF6F3;
+    --services-section-color: #25406E;
+    --section-paragraph-color: #4D4C4C;
+    --carousel-header-color: #222222;
+    --services-paragraph-color: #646464;
 }
 
