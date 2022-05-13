@@ -124,7 +124,7 @@
     }
 
     .blogg__content3 {
-        background: url(img/blog_background.webp) round;
+        background: url(../img/blog-background.png) round;
         background-position: absolute;
         background-size: 100%;
         opacity: 1;
