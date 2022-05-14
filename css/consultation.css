@@ -13,11 +13,11 @@
     width: 320px;
 }
 
-.before-consultation__padding {
+.consultation__padding {
     padding: 15px 0;
 }
 
-.before-consultation__padding-line {
+.consultation__padding-line {
     height: 3px;
     width: 10%;
     background-color: rgb(9, 157, 208);
@@ -48,7 +48,6 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 260px;
 }
 
 .before-consultation__text-content-italic {
@@ -57,14 +56,57 @@
     font-size: 17px;
 }
 
-.icon-list__inner img {
-    width: 20px;
-}
-
 .icon-list__inner {
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+.icon-list__inner img {
+    width: 20px;
+    display: flexbox;
+}
+
+.after-consultation {
+    background-color: #F0E7DF;
+}
+
+.after-consultation__container {
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.after-consultation__h2 {
+    font-family: 'Martel', sans-serif;
+    font-weight: bold;
+    color: #25406e;
+    font-size: 34px;
+}
+
+.after-consultation__text-content {
+    font-family: 'Lato', sans-serif;
+    color: rgb(77,76,76);
+    font-size: 19px;
+}
+
+a.consultation-button {
+    display: inline-block;
+    background: #0A9DD0;
+    color: #fff;
+    padding: 12px;
+    margin-top: 52px;
+    border-radius: 6px;
+    border-color: transparent;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;  
 }
 
 /*
