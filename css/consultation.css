@@ -15,6 +15,7 @@
     font-family: 'Lato', sans-serif;
     color: #646464;
     font-size: 17px;
+    list-style-type: none;
 }
 .consultation__block-before-italic {
     font-family: 'Lato', sans-serif;
@@ -50,6 +51,7 @@ a.consultation-button {
     font-family: 'Lato', sans-serif;
     color: #646464;
     font-size: 17px;
+    list-style-type: none;
 }
 .consultation__block-after-italic {
     font-family: 'Lato', sans-serif;
@@ -65,6 +67,7 @@ a.consultation-button {
 .consultation__block-before {
     background-color: #f5eee7;
     width: 50%;
+    display: grid;
 }
 .consultation-before {
     display: flex;
@@ -78,6 +81,7 @@ a.consultation-button {
 .consultation__block-after {
     background-color: #f5eee7;
     width: 50%;
+    display: grid;
 }
 .consultation-after {
     display: flex;
