@@ -1,6 +1,6 @@
 
 #schedule-option {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/schedule-bgd/schedule-background.png);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/schedule-bgd/schedule-background.png);
     width: 100%;
     height: 550px;
     background-attachment: fixed;
@@ -10,7 +10,64 @@
     justify-content: space-around;
 }
 
+.schedule-option-text {
+    padding-left: -10px;
+}
+.schedule-header {
+    color: var(--schedule-title-color);
+    font-size: 38px;
+    font-family: 'Martel';
+}
 
+.schedule-devider {
+    width: 58px;
+    height: 3px;
+    background-color: var(--button-background-color);
+}
 
+.schedule-info-text {
+    font-family: 'Lato';
+    font-size: 19px;
+    color: var(--schedule-info-text);
+    padding: 15px 0;
+    
+}
+
+.schedule-asterisk {
+    color: var(--button-background-color);
+}
+
+.schedule-info-note {
+    font-family: 'Lato';
+    font-size: 14px;
+    color: var(--schedule-info-note);
+    padding-top: 10px;
+
+}
+
+.schedule-form {
+    
+}
+
+.form-input-bgd {
+    padding: 14px 30px;
+    font-size: 16px;
+    border-radius: 6px 6px 6px 6px;
+    line-height: 1.2;
+    background-color: var(--form-box-bgd);
+   
+}
+
+.form-name {
+
+}
+
+.form-number {
+    
+}
+
+.form-date {
+    
+}
 
 

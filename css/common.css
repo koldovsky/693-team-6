@@ -30,5 +30,10 @@ h1 {
     --section-paragraph-color: #4D4C4C;
     --carousel-header-color: #222222;
     --services-paragraph-color: #646464;
+    --schedule-title-color: #FFFFFF;
+    --schedule-info-text: #D9D9DF;
+    --schedule-info-note: #BCBBBB;
+    --form-box-bgd: #242528D1;
+
 }
 
