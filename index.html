@@ -5,93 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dr. Hanna Clooney, Otolaryngologist</title>
-    <script
-      src="https://kit.fontawesome.com/590be183d5.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/590be183d5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/index.css" />
-  </head>
+    </head>
 
   <body>
     <!-- Igor Oleynik's start -->
-    <header class="header">
-      <div class="header-container">
-        <div class="header-contacts">
-          <div>
-            <span class="header-contacts__hours-text">Working hours: </span>
-            <span class="header-contacts__hours">8 am - 8 pm</span>
-          </div>
-          <span
-            ><a class="header-contacts__phone" href="tel:+12345678900"
-              >+1 (234) 567 89 00</a
-            ></span
-          >
-          <span
-            ><a class="header-contacts__mail" href="hannaclooney@email.com"
-              >hannaclooney@email.com</a
-            ></span
-          >
+    <div class="wrapper">
+      <header class="contact-header">
+        <div class="container contact-header__body">
+          <span>Working hours: <span class="contact-header__blue-text"> 8 am - 8 pm</span></span>
+          <a class="contact-header__link" href="tel:+12345678900">+1 (234) 567 89 00</a>
+          <a class="contact-header__link" href="hannaclooney@email.com">hannaclooney@email.com</a>
         </div>
-      </div>
-      <div class="header-navigation">
-        <img
-          class="header-logo"
-          width="162"
-          src="img/header-logo.svg"
-          alt="logo"
-        />
+      </header>
+      <header class="header">
+        <div class="container">
+          <div class="header__body">
+            <a href="#" class="header__logo">
+              <img src="img/header-logo.svg" alt="logo">
+            </a>
+      
+            <div class="header__burger">
+              <span></span>
+            </div>
+            
+            <nav class="header__menu">
+              <ul class="header__list">
+                <li>
+                  <a href="about-dr-hanna-clooney.html" class="header__link">About Dr. Hanna Clooney</a>
+                </li>
+                <li>
+                  <a href="about-consultation.html" class="header__link">About Consultation</a>
+                </li>
+                <li>
+                  <a href="symptoms.html" class="header__link">Symptoms</a>
+                </li>
+                <li>
+                  <a href="contacts.html" class="header__link">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div> 
+        </div>
+         
+      </header>
 
-        <nav class="header-nav">
-          <ul>
-            <li>
-              <a
-                href="about-dr-hanna-clooney.html"
-                class="header-nav__menu-item"
-                >About Dr. Hanna Clooney</a
-              >
-            </li>
-            <li>
-              <a href="about-consultation.html" class="header-nav__menu-item"
-                >About Consultation</a
-              >
-            </li>
-            <li>
-              <a href="symptoms.html" class="header-nav__menu-item">Symptoms</a>
-            </li>
-            <li>
-              <a href="contacts.html" class="header-nav__menu-item">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header-icon">
-          <a href="tel:+12345678900"
-            ><img width="30" src="img/icon-phone.png" alt="icons-phone"
-          /></a>
-          <a href="hannaclooney@email.com"
-            ><img width="30" src="img/icon-mail.png" alt="icons-mail"
-          /></a>
-          <a href="https://www.facebook.com/"
-            ><img width="30" src="img/icon-facebook.png" alt="icons-facebook"
-          /></a>
-        </div>
-      </div>
-    </header>
-    <div class="banner">
-      <section class="header-banner">
-        <h1>
-          Dr. Hanna Clooney, <br />
-          Otolaryngologist
-        </h1>
-        <div class="header-banner__paragraph">
-          Professional medical & surgical treatment of ENT conditions.
-        </div>
-        <div class="header-banner__paragraph">
-          Reliable and affordable help with any disorders.
-        </div>
-        <a href="#contact-us" class="header-banner__appointment"
-          >Make an Appointment</a
-        >
-      </section>
+            <div class="content">
+              <div class="container">
+                <div class="content_banner"></div>
+                <section class="header-banner">
+                  <h1>Dr. Hanna Clooney, <br> Otolaryngologist</h1>
+                  <div class="header-banner__paragraph">Professional medical & surgical treatment of ENT conditions.</div>
+                  <div class="header-banner__paragraph">Reliable and affordable help with any disorders.</div>
+                  <a href="#contact-us" class="header-banner__appointment">Make an Appointment</a>
+                </section>
+              </div>
+            </div>
+
+
+
     </div>
     <!-- Igor Oleynik's end -->
     <main>
@@ -582,16 +555,19 @@
       <!-- 7 OLha Lieman's block start -->
       <section id="schedule-option">
         <div class="schedule-option">
-          <h3 class="schedule-header">Want to Schedule Your First Consultation?</h3>
-          <div class="schedule-devider"><hr>
-        </div>
+          <h3 class="schedule-header">
+            Want to Schedule Your First Consultation?
+          </h3>
+          <div class="schedule-devider"><hr /></div>
           <div class="schedule-option-text">
             <p class="schedule-form-text">
               Use this form to book an appointment and schedule your first
-              consultation online!</p>
+              consultation online!
+            </p>
             <p class="schedule-form-note">
               * After filling out the form, wait for the call of our
-              receptionist.</p>
+              receptionist.
+            </p>
           </div>
         </div>
         <div class="schedule-form">
@@ -839,5 +815,8 @@
         <a href="#hospitals">Sheriff Hospital</a>
       </section>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
