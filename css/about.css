@@ -166,12 +166,13 @@
     .about__diplomas {
         padding-bottom: 120px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        min-width: 201.5px;
     }
 }
 
-.diplom {
-    min-width: 272px;
+@media (max-width: 768px) {
+    .diplom {
+        min-width: 272px;
+    }
 }
 
 .diplom__h4 {
