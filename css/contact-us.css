@@ -83,7 +83,7 @@ form input {
     height: 150px;
     text-align: center;
     font-family: Lato, sans-serif;
-    font-size: medium;
+    color: white;
 }
 
 .input {
@@ -104,6 +104,8 @@ form input {
     color: #637698;
     padding-top: 15px;
     font-weight: 400;
+    font-family: Lato, sans-serif;
+    font-size: larger;
 }
 
 .form-button {
