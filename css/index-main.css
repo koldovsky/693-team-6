@@ -1,92 +1,99 @@
-.section {
-    background-color: rgb(11, 115, 150);
-} 
-/* logo */
 
-.logo_1{
+.photo-fon{
+    background-image: url(../img/nestorko-banner.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;     
+    min-height: 400px;    
+}
+
+.first-content{
+    padding-top: 100px;
+    padding-left: 350px;
+}
+
+.line{
+    border: 1px solid rgb(84, 84, 228);
+    background-color: rgb(84, 84, 228);
+    width: 50px;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+
+/* section-r */
+
+.section-r{
+   display: flex;
+   flex-direction: row;
+   background-color: rgb(40, 40, 119);   
+}
+  
+.text-content{
+    width: 250px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 330px;
+    font-size: 14px;
+}
+
+.text-why{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.text-111{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.text-222{    
+    color: rgb(197, 178, 178);
+}
+
+.text-11{
+    margin-bottom: 10px;
+}
+
+.box-photo-all{
+    border: 1px solid rgb(40, 40, 119);
+    width: 520px;  
+    display: grid;
+    grid-template-columns: 1fr 1fr;      
+    margin-top: 60px;
+    margin-bottom: 60px;
     margin-left: 50px;
-    color:rgb(255, 255, 255);
-    font-size: 50px;
-    margin-bottom: 20px;    
-}
-/* text */
-
-.text_girl{
-    border: 1px solid black;
-    margin: 20px;
-    width: 400px; 
 }
 
-.text-content_1{
-    margin-top: 20px;
-    margin-left: 50px;
-    padding-left: 90px;
-    
+.box-photo{
+    border: 1px solid rgb(40, 40, 119);
+    width: 250px;
+    margin-bottom: 10px;
+    margin-right: 10px;    
+    background-color: rgb(45, 45, 143);    
 }
 
-/* img */
-
-.img-content{
-    border: 1px solid black;
-    margin: 20px;
-    width: 500px;
-    justify-content: space-around;
-    flex-direction: column-reverse;        
+.photo{   
+   display: block;
+   padding: 5px;
+   border-radius: 50px;
+   margin: 30px;   
+   background-color: white;       
 }
 
-.img_1{
-    border: 1px solid black;
-    margin: 10px;
-    width: 150px;
+.text-photo{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
 }
 
-.img_1_text{
-    margin: 10px;
+.link-1 a {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
 }
 
-.img-content_1{
-    margin: 10px;
+.link-1 a:hover{
+    text-decoration: underline;
 }
-
-.img_2{
-    border: 1px solid black;
-    margin: 10px;
-    width: 150px;       
-}
-
-.img_2_text{
-    margin: 10px;
-}
-
-.img-content_2{
-    margin: 10px;
-}
-
-.img_3{
-    border: 1px solid black;
-    margin: 10px;
-    width: 150px;
-}
-
-.img_3_text{
-    margin: 10px;
-}
-
-.img-content_3{
-    margin: 10px;
-}
-
-.img_4{
-    border: 1px solid black;
-    margin: 10px;
-    width: 150px;
-}
-
-.img_4_text{
-    margin: 10px;
-}
-
-.img-content_4{
-    margin: 10px;
-}
-
