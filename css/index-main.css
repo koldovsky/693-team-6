@@ -1,24 +1,69 @@
 
 .photo-fon{
-    background-image: url(../img/nestorko-banner.png);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/nestorko-banner.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;     
+    background-attachment: fixed;          
     min-height: 400px;    
 }
 
 .first-content{
-    padding-top: 100px;
-    padding-left: 350px;
+    padding-top: 150px;    
 }
+
+.first-text{
+    color: white;
+}
+
+.second-text{
+    color: white;
+}
+
+.watch a {
+    text-decoration: none;
+    color: white;
+}
+
+.watch a:hover {
+    text-decoration: underline;
+}
+
 
 .line{
     border: 1px solid rgb(84, 84, 228);
     background-color: rgb(84, 84, 228);
     width: 50px;
-    margin-bottom: 10px;
-    padding: 1px;
+    height: 3px;   
 }
+
+@media(min-width:700px) {
+    .first-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .first-text h3{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .line {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .second-text{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .watch{
+        grid-column: 2;
+        grid-row: 1/span 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;        
+    }
+}
+
 
 /* section-r */
 
