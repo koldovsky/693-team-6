@@ -1,7 +1,6 @@
-$(document).ready(function () {
-    $('.header__burger').click(function(Event) { 
-        $('.header__burger,.header__menu').toggleClass('active');
-        $('body').toggleClass('lock');
-    });
-});
+const btnNavEl = document.querySelector(".nav-btn");
+const headerEl = document.querySelector(".header");
 
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});

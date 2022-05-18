@@ -15,67 +15,64 @@
   <body>
     <!-- Igor Oleynik's start -->
 
-    <header class="contact-header">
-      <div class="container contact-header__body">
-        <span
-          >Working hours:
-          <span class="contact-header__blue-text"> 8 am - 8 pm</span></span
-        >
-        <a class="contact-header__link" href="tel:+12345678900"
-          >+1 (234) 567 89 00</a
-        >
-        <a class="contact-header__link" href="hannaclooney@email.com"
-          >hannaclooney@email.com</a
-        >
-      </div>
-    </header>
-
     <header class="header">
-      <div class="container">
-        <div class="header__body">
-          <a href="#" class="header__logo">
-            <img src="img/header-logo.svg" alt="logo" />
-          </a>
-
-          <div class="header__burger">
-            <span></span>
+      <div class="top-header-bg">
+        <div class="top-header-content">
+          <span>Working hours: <span class="highlighted-text"">8 am - 8 pm</span></span>
+              <a href=" tel:+1 (234)567 89 00">+1 (234) 567 89 00</a>
+              <a href="mailto:hannaclooney@email.com">hannaclooney@email.com</a>
+        </div>
+      </div>
+      <div class="bot-header-bg">
+        <div class="bot-header-content">
+          <a href="#"><img class="logo-img"
+              src="https://res2.weblium.site/res/60fab60bd230c30022a4117f/610259e96195a3002171ae57?nowebp"
+              alt="header logo" /></a>
+          <ul class="nav-list">
+            <li><a href="#">About Dr. Hanna Clooney</a></li>
+            <li><a href="#">About Consultation</a></li>
+            <li><a href="#">Symptoms</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+          <div class="nav-icons">
+            <div class="icon"><a href="tel:+1 (234)567 89 00">
+                <ion-icon name="call-outline"></ion-icon>
+              </a></div>
+            <div class="icon"><a href="mailto:hannaclooney@email.com">
+                <ion-icon name="mail-outline"></ion-icon>
+              </a></div>
+            <div class="icon"><a href="#">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a></div>
           </div>
-
-          <nav class="header__menu">
-            <ul class="header__list">
-              <li>
-                <a href="about-dr-hanna-clooney.html" class="header__link"
-                  >About Dr. Hanna Clooney</a
-                >
-              </li>
-              <li>
-                <a href="about-consultation.html" class="header__link"
-                  >About Consultation</a
-                >
-              </li>
-              <li>
-                <a href="symptoms.html" class="header__link">Symptoms</a>
-              </li>
-              <li>
-                <a href="contacts.html" class="header__link">Contacts</a>
-              </li>
-            </ul>
-
-            <div class="header__icon">
-              <a href="tel:+12345678900"
-                ><img width="30" src="img/icon-phone.png" alt="icons-phone"
-              /></a>
-              <a href="hannaclooney@email.com"
-                ><img width="30" src="img/icon-mail.png" alt="icons-mail"
-              /></a>
-              <a href="https://www.facebook.com/"
-                ><img
-                  width="30"
-                  src="img/icon-facebook.png"
-                  alt="icons-facebook"
-              /></a>
-            </div>
-          </nav>
+          <button class="nav-btn">
+            <ion-icon class="icon-btn" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-btn" name="close-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <div class="pop-up">
+        <ul class="nav-list">
+          <li><a href="">About Dr. Hanna Clooney</a></li>
+          <li><a href="">About Consultation</a></li>
+          <li><a href="">Symptoms</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+        <div class="hidden-menu">
+          <span>Working hours: <span class="highlighted-text"">8 am - 8 pm</span></span>
+                <a href=" tel:+1 (234)567 89 00">+1 (234) 567 89 00</a>
+              <a href="mailto:hannaclooney@email.com">hannaclooney@email.com</a>
+        </div>
+        <div class="nav-icons">
+          <div class="icon"><a href="tel:+1 (234)567 89 00">
+              <ion-icon name="call-outline"></ion-icon>
+            </a></div>
+          <div class="icon"><a href="mailto:hannaclooney@email.com">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a></div>
+          <div class="icon"><a href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></div>
         </div>
       </div>
     </header>
@@ -952,11 +949,12 @@
       </section>
     </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script defer src="js/script.js"></script>
   </body>
 </html>
