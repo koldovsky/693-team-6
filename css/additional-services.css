@@ -1,4 +1,5 @@
 .section-header h2 {
+	padding-top: 15px;
 	font-size: 38px;
 	font-family: 'Martel';
 	color: var(--services-section-color);
@@ -16,7 +17,7 @@
 	text-align: center;
 }
 
-.services-example-img {
+.carousel-item img {
 	width: 100%;
 }
 
@@ -27,33 +28,9 @@
   align-items: center;
 }
 
-@media (min-width: 760px) {
-	#container {
-    display: grid;
-	grid-template-rows: 1fr 1fr;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 2vw;
-	}
-    .services-example-1 {
-    	grid-column: 1/2;
-    	grid-row: 1/2;
-    }
-    .services-example-2 {
-    	grid-column: 2/3;
-    	grid-row: 1/2;
-    }
-    .services-example-3 {
-    	grid-column: 1/2;
-    	grid-row: 2/3;
-    }
-    .services-example-1 {
-    	grid-column: 2/3;
-    	grid-row: 2/3;
-    }
-}
-
 .carousel-header {
 	font-size: 21px;
+	padding-top: 5px;
 	font-family: 'Martel';
 	color: var(--carousel-header-color);
 	display: flex;
