@@ -17,10 +17,6 @@
 	text-align: center;
 }
 
-.carousel-item img {
-	width: 100%;
-}
-
 .services-example {
   display: flex;
   flex-flow: column nowrap;
@@ -50,6 +46,7 @@
 	margin-top: 5px;
 	margin-bottom: 8px;
 }
+
 
 
 
