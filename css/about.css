@@ -127,10 +127,10 @@
     margin-top: 25px;
 }
 
-.about__button {
+#about__button {
     background-color: var(--button-background-color);
     border: none;
-    color: var(--button-text-inside-color) !important;
+    color: var(--button-text-inside-color);
     padding: 18px 35px;
     text-align: center;
     text-decoration: none;
