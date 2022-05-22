@@ -5,12 +5,12 @@
     margin: 0 auto;
 }
 
-.before-consultation__h2 {
+/* .before-consultation__h2 {
     font-family: 'Martel', sans-serif;
     font-weight: bold;
     color: #25406e;
     font-size: 34px;
-}
+} */
 
 .consultation__padding {
     padding: 15px 0;
@@ -79,12 +79,12 @@
     gap: 10px;
 }
 
-.after-consultation__h2 {
+/* .after-consultation__h2 {
     font-family: 'Martel', sans-serif;
     font-weight: bold;
     color: #25406e;
     font-size: 34px;
-}
+} */
 
 .after-consultation__text-content {
     font-family: 'Lato', sans-serif;
@@ -239,8 +239,11 @@ a.consultation-button {
     .icon-list__inner img {
         width: 20px;
     }
-    .before-consultation__h2, .after-consultation__h2 {
-        font-size: 38px;
+    .before-consultation__h2,.after-consultation__h2 {
+        font-family: 'Martel', sans-serif;
+        font-weight: bold;
+        color: var(--services-section-color);
+        font-size: 38px!important;
     }
     .before-consultation__section {
         display: flex;
@@ -271,7 +274,7 @@ a.consultation-button {
         background-image: url(../img/consultations/after-consultations.png);
         width: 50%;
         background-size: cover;
-        background-position: 10% 50%;
+        background-position: 83% 50%;
     }
     .after-consultation {
         background-color: #f5eee7;
