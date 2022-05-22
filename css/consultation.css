@@ -12,11 +12,6 @@
     font-size: 34px;
 }
 
-.consultation img {
-    display: block;
-    margin: auto;
-}
-
 .consultation__padding {
     padding: 15px 0;
 }
@@ -222,59 +217,54 @@ a.consultation-button {
     height: 750px;
 } */ */
 
-@media (max-width: 1440px) {
-    .consultation img {
-        width: 100%;
-        display: block;
-        margin: auto;
+@media (min-width: 1440px) {
+    .before-consultation__picture {
+        display: none!important;
     }
     .icon-list__inner img {
         width: 20px;
     }
 }
 
-@media (max-width: 1024px) {
-    .consultation img {
-        width: 100%;
-        display: block;
-        margin: auto;
+@media (min-width: 1024px) {
+    .before-consultation__picture {
+        display: none!important;
     }
     .icon-list__inner img {
         width: 20px;
     }
 }
 
-
-@media (max-width: 768px) {
-    .consultation img {
-        width: 100%;
-        display: block;
-        margin: auto;
-    }
+@media (min-width: 768px) {
     .icon-list__inner img {
         width: 20px;
     }
     .before-consultation__h2, .after-consultation__h2 {
         font-size: 38px;
     }
-    .banner-before-consultation img  {
+    .before-consultation__section {
+        display: flex;
+        height: 100%;
+    }
+    .before-consultation__picture {
+        display: none!important;
+    }
+    .before-consultation__banner {
         background-image: url(../img/consultations/before-consultations.png);
         width: 50%;
         background-size: cover;
+        background-position: 10% 50%;
     }
-    .before-consultation__container {
+    .before-consultation {
         background-color: #f5eee7;
         width: 50%;
         display: grid;
     }
-    .before-consultation {
-        display: flex;
-        height: 750px;
-    }
+
 }
 
-@media (max-width: 425px) {
-    .consultation img {
+@media (min-width: 425px) {
+    .before-consultation__picture {
         width: 100%;
         display: block;
         margin: auto;
@@ -284,8 +274,8 @@ a.consultation-button {
     }
 }
 
-@media (max-width: 375px) {
-    .consultation img {
+@media (min-width: 375px) {
+    .before-consultation__picture {
         width: 100%;
         display: block;
         margin: auto;
@@ -295,17 +285,17 @@ a.consultation-button {
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
+    .before-consultation__picture {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
     .before-consultation__h2 {
         font-family: 'Martel', sans-serif;
         font-weight: bold;
         color: #25406e;
         font-size: 34px;
-    }
-    .consultation img {
-        width: 100%;
-        display: block;
-        margin: auto;
     }
     .consultation__padding {
         padding: 15px 0;
