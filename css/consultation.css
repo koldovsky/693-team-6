@@ -139,7 +139,7 @@
     gap: 20px;
 }
 
-.icon-list__span {
+.icon-list__text {
     font-family: 'Lato', sans-serif;
     font-size: 17px;
     color: var(--services-paragraph-color);
@@ -260,11 +260,33 @@ a.consultation-button {
         width: 50%;
         display: grid;
     }
-
+    .after-consultation__section {
+        display: flex;
+        height: 100%;
+    }
+    .after-consultation__picture {
+        display: none!important;
+    }
+    .after-consultation__banner {
+        background-image: url(../img/consultations/after-consultations.png);
+        width: 50%;
+        background-size: cover;
+        background-position: 10% 50%;
+    }
+    .after-consultation {
+        background-color: #f5eee7;
+        width: 50%;
+        display: grid;
+    }
 }
 
 @media (min-width: 425px) {
     .before-consultation__picture {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .after-consultation__picture {
         width: 100%;
         display: block;
         margin: auto;
@@ -280,6 +302,11 @@ a.consultation-button {
         display: block;
         margin: auto;
     }
+    .after-consultation__picture {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
     .icon-list__inner img {
         width: 20px;
     }
@@ -287,6 +314,11 @@ a.consultation-button {
 
 @media (min-width: 320px) {
     .before-consultation__picture {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .after-consultation__picture {
         width: 100%;
         display: block;
         margin: auto;
@@ -405,7 +437,7 @@ a.consultation-button {
         align-items: flex-start;
         gap: 20px;
     }
-    .icon-list__span {
+    .icon-list__text {
         font-family: 'Lato', sans-serif;
         font-size: 17px;
         color: var(--services-paragraph-color);
