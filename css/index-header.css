@@ -22,11 +22,11 @@
   a:active {
     text-decoration: underline;
   }
-  
-  ion-icon {
+
+  /* ion-icon {
     color: #099dd0;
     font-size: 32px;
-  }
+  } */
   
   .highlighted-text {
     color: #099dd0;
@@ -73,12 +73,17 @@
     align-items: center;
     justify-content: space-around;
     gap: 30px;
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
   }
   
   .nav-icons {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 15px;
   }
   
   .pop-up {
@@ -109,9 +114,9 @@
     }
   }
   
-  .nav-icons {
+  /* .nav-icons {
     font-size: 30px;
-  }
+  } */
   
   @media (max-width: 991px) {
     .top-header-bg {
@@ -186,10 +191,12 @@
       align-items: center;
       flex-direction: column;
       gap: 20px;
+      margin-left: 30px
     }
   
     .pop-up .nav-icons {
       display: flex;
+      margin-left: 30px
     }
   
     .pop-up .nav-icons .icon:nth-child(3n) {
@@ -206,14 +213,45 @@
   background-image: url(../img/banner.png);
   width: 100%;
   background-size: cover;
+  padding: 235px 0px 230px 0px;
 }
 
 .header-banner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 235px 0 300px 0;
+  line-height: 1.2;
 }
 
+.top-header-content span {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.top-header-content a:hover {
+  color: #222;
+}
+
+.nav-list a:hover {
+  position: relative;
+  color: #222;
+  text-decoration: none;
+}
+
+.nav-list a:after {
+  display: block;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #222; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+a:hover:after,
+a:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
 
 .header-banner h1 {
   font-family: 'Martel', sans-serif;
@@ -239,5 +277,31 @@
   font-family: 'Lato', sans-serif;
   font-size: 19px;
   color: var(--carousel-header-color);
-  padding-top: 30px;
+  padding-top: 50px;
+}
+
+#header-button {
+    background-color: var(--button-background-color);
+    border: none;
+    color: var(--button-text-inside-color);
+    padding: 18px 50px;
+    text-align: center;
+    text-decoration: none!important;
+    display: inline-block;
+    font-family: Lato!important;
+    font-size: 16.5px!important;
+    font-weight: 400;
+    margin-top: 50px;
+    border-radius: 7px;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+     font-size: 16.5px;
+}
+
+#header-button:hover {
+    background-color: rgb(34, 34, 34)
+}
+
+.fa-solid {
+  margin-left: 10px;
 }
