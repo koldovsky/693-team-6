@@ -295,7 +295,7 @@ a:focus:after {
     border-radius: 7px;
     text-decoration: underline;
     font-family: 'Lato', sans-serif;
-     font-size: 16.5px;
+    font-size: 16.5px;
 }
 
 #header-button:hover {
