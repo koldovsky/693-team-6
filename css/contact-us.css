@@ -1,5 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 768px) {
+    .inner {
+        display: flex;
+        align-items: center;
+
+    }
+    .contact-us__text {
+        width: 50%;
+        display: grid;
+    }
+    .form-section {
+        width: 50%;
+        display: grid;
+    }
+}
+
+@media (min-width: 425px) {
+
+}
+
+@media (min-width: 375px) {
+
+}
+
+@media (min-width: 320px) {
+
+}
+
+
 .contact-us {
     min-width: 320px;
     overflow-x: hidden;
@@ -122,7 +159,3 @@ form input {
     width: 228px;
     height: 43px;
 }
-
-
-
-
