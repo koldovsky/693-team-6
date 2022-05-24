@@ -1,42 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-@media (min-width: 1440px) {
-
-}
-
-@media (min-width: 1024px) {
-
-}
-
-@media (min-width: 768px) {
-    .inner {
-        display: flex;
-        align-items: center;
-
-    }
-    .contact-us__text {
-        width: 50%;
-        display: grid;
-    }
-    .form-section {
-        width: 50%;
-        display: grid;
-    }
-}
-
-@media (min-width: 425px) {
-
-}
-
-@media (min-width: 375px) {
-
-}
-
-@media (min-width: 320px) {
-
-}
-
-
 .contact-us {
     min-width: 320px;
     overflow-x: hidden;
@@ -78,12 +40,6 @@
     font-weight: 300;
 }
 
-.contact-us-map iframe {
-    width: 272px;
-    height: 223px;
-    padding-top: 30px;
-}
-
 .form-section {
     background-color: var(--background-dark-color);
 }
@@ -104,6 +60,7 @@ form {
     align-items: center;
     gap: 30px;
     padding-top: 50px;
+    border-radius: 10[x]
 }
 
 form input {
@@ -129,6 +86,7 @@ form input {
     background-color: var(--background-dark-color);
     color: white;
     font-family: Lato, sans-serif;
+    border: none;
 }
 
 .input::placeholder {
@@ -158,4 +116,87 @@ form input {
     border-radius: 7px;
     width: 228px;
     height: 43px;
+}
+
+@media (min-width: 1440px) {
+    .contact-us__title {
+        font-size: 42px!important;
+    }
+    .inner {
+        padding: 20px 110px 100px 110px;
+    }
+    .input {
+        width: 370px;
+        height: 47px;
+        background-color: var(--background-dark-color);
+        color: white;
+        font-family: Lato, sans-serif;
+        box-sizing: border-box;
+
+    }
+    .form-field textarea {
+        background-color: var(--background-dark-color);
+        width: 370px;
+        height: 150px;
+        text-align: center;
+        font-family: Lato, sans-serif;
+        color: white;
+        border-radius: 10px;
+    }
+    .input::placeholder {
+        font-family: Lato, sans-serif;
+        font-size: larger;
+        color: #637698;
+    }
+    
+    .form-field textarea::placeholder {
+        color: #637698;
+        padding-top: 15px;
+        font-weight: 400;
+        font-family: Lato, sans-serif;
+        font-size: larger;
+    }
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 768px) {
+    .contact-us__title {
+        font-size: 38px;
+    }
+    .inner {
+        display: flex;
+        align-items: center;
+    }
+    .contact-us__text {
+        width: 50%;
+        display: grid;
+    }
+    .form-section {
+        width: 50%;
+        display: grid;
+    }
+    .content-grid {
+        display: grid;
+        grid-template-columns: 100px 250px;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+}
+
+@media (min-width: 425px) {
+
+}
+
+@media (min-width: 375px) {
+
+}
+
+@media (min-width: 320px) {
+    .contact-us-map {
+        margin-top: 30px;
+    }
 }
