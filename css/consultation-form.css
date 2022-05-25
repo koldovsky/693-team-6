@@ -1,8 +1,10 @@
 
 #schedule-option {
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/schedule-bgd/schedule-background.png);
-    width: 100%;
-    height: 550px;
+    opacity: 0.95;
+    background-size: cover;
+    background-position: center;
+    height: 590px;
     background-attachment: fixed;
     overflow-x: hidden;
     margin: 0 auto;
@@ -60,5 +62,10 @@
    
 }
 
+.placeholder_bgd {
+    border-color:#f5eee7;
+    background-color:rgba(36, 37, 40, 0.82);
+    
+}
 
 
