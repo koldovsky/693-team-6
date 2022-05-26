@@ -30,7 +30,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 17px;
     color: #898FA7F5;
-    font-weight: 300;
+    font-weight: 400;
     gap: 10px;
     list-style-type: none;
     display: flex;
@@ -64,12 +64,13 @@
 
 .about__padding {
     padding: 15px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .about__padding__line {
     height: 3px;
     background-color: rgb(9, 157, 208);
-    display: flex;
 }
 
 .footer__p {
@@ -78,7 +79,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: #898FA7F5;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .footer-title {
