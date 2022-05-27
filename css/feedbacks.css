@@ -104,4 +104,11 @@ h3 {
     background-color: #F5EEE7;
     color: #7CBDE3;
     font-weight: 600;
+    position: relative;
+    bottom: 35px;
+    right: 10px;
+}
+.button_forward__hp{
+    position: relative;
+    left: 20px;
 }
