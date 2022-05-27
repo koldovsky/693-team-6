@@ -13,10 +13,10 @@ btnNavEl.addEventListener("click", function () {
 // Olena Goloyda's block start
 (function() {
   const slides = [
-      '<div class="slide_hospitals"><figure><img src="img/hospitals/hospital1.png" alt="Vanza Hospital" class="img_hospitals"><figccaption> Vanza Hospital</figcaption></figure></div>',
-      '<div class="slide_hospitals"><figure><img src="img/hospitals/hospital2.png" alt=" Sheriff Hospital" class="img_hospitals"><figccaption> Sheriff Hospital</figcaption></figure></div>',
-      '<div class="slide_hospitals"><figure><img src="img/hospitals/hospital3.png" alt="Best Hospital" class="img_hospitals"><figccaption> Best Hospital</figcaption></figure></div>',
-      '<div class="slide_hospitals"><figure><img src="img/hospitals/hospital4.png" alt="Kentucky Hospital" class="img_hospitals"><figccaption>Kentucky Hospital</figcaption></figure></div>'
+      '<div class="slide_hospitals"><figure><img src="img/hospitals/hospital1.png" alt="Vanza Hospital" class="img_hospitals"><figccaption class ="label_hospital"> Vanza Hospital</figcaption></figure></div>',
+      '<div class="slide_hospitals"><figure><img src="img/hospitals/hospital2.png" alt=" Sheriff Hospital" class="img_hospitals"><figccaption class ="label_hospital"> Sheriff Hospital</figcaption></figure></div>',
+      '<div class="slide_hospitals"><figure><img src="img/hospitals/hospital3.png" alt="Best Hospital" class="img_hospitals"><figccaption class ="label_hospital"> Best Hospital</figcaption></figure></div>',
+      '<div class="slide_hospitals"><figure><img src="img/hospitals/hospital4.png" alt="Kentucky Hospital" class="img_hospitals"><figccaption class ="label_hospital">Kentucky Hospital</figcaption></figure></div>'
   ];
   let currentSlide = 0;
   function renderCarousel() {
