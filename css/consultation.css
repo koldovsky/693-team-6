@@ -1,23 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 .consultation {
-    min-width: 320px;
     overflow-x: hidden;
     margin: 0 auto;
 }
 
-.before-consultation__h2 {
+/* .before-consultation__h2 {
     font-family: 'Martel', sans-serif;
     font-weight: bold;
     color: #25406e;
     font-size: 34px;
-}
-
-.consultation img {
-    display: block;
-    margin: auto;
-    width: 320px;
-}
+} */
 
 .consultation__padding {
     padding: 15px 0;
@@ -33,13 +26,6 @@
     font-family: 'Lato', sans-serif;
     color: rgb(77,76,76);
     font-size: 19px;
-}
-
-.before-consultation__list {
-    font-family: 'Lato', sans-serif;
-    color: #646464;
-    font-size: 17px;
-    list-style-type: none;
 }
 
 .before-consultation {
@@ -62,9 +48,16 @@
     font-size: 17px;
 }
 
+.after-consultation__text-content-italic {
+    font-family: 'Lato', sans-serif;
+    color: #8f8f8f;
+    font-size: 17px;
+}
+
 .icon-list__inner {
     display: flex;
     flex-direction: row;
+    align-items: flex-start!important;
     gap: 10px;
 }
 
@@ -86,44 +79,71 @@
     gap: 10px;
 }
 
-.after-consultation__h2 {
+/* .after-consultation__h2 {
     font-family: 'Martel', sans-serif;
     font-weight: bold;
     color: #25406e;
     font-size: 34px;
-}
+} */
 
 .after-consultation__text-content {
     font-family: 'Lato', sans-serif;
     color: rgb(77,76,76);
     font-size: 19px;
+    padding-bottom: 15px;
 }
 
-a.consultation-button {
-    display: inline-block;
-    background: #0A9DD0;
-    color: #fff;
-    padding: 12px;
-    margin-top: 52px;
-    border-radius: 6px;
-    border-color: transparent;
-    text-decoration: none;
-    font-family: Lato, sans-serif;
-    font-size: 16.5px;
-    line-height: 1;
-    font-weight: 4r00;  
+.before-consultation__text-content {
+    font-family: 'Lato', sans-serif;
+    color: rgb(77,76,76);
+    font-size: 19px;
+    padding-bottom: 15px;
 }
+
+#consultation-button {
+    background-color: var(--button-background-color);
+    border: none;
+    color: var(--button-text-inside-color);
+    padding: 18px 50px;
+    text-align: center;
+    text-decoration: none!important;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 16.5px;
+    font-weight: 700;
+    margin-top: 50px;
+    border-radius: 7px;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    font-size: 16.5px;
+    }
+    
+#consultation-button:hover {
+    background-color: rgb(34, 34, 34)
+    }
+
+.fa-solid {
+    margin-left: 10px;
+  }
 
 .before-consultation__icon-list {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    gap: 20px;
 }
 
 .after-consultation__icon-list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 20px;
+}
+
+.icon-list__text {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: var(--services-paragraph-color);
+    font-weight: 400;
 }
 /*
 .consultation__block-before-italic {
@@ -196,3 +216,234 @@ a.consultation-button {
     display: flex;
     height: 750px;
 } */ */
+
+@media (min-width: 1440px) {
+    .before-consultation__picture {
+        display: none!important;
+    }
+    .icon-list__inner img {
+        width: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .before-consultation__picture {
+        display: none!important;
+    }
+    .icon-list__inner img {
+        width: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .icon-list__inner img {
+        width: 20px;
+    }
+    .before-consultation__h2,.after-consultation__h2 {
+        font-family: 'Martel', sans-serif;
+        font-weight: bold;
+        color: var(--services-section-color);
+        font-size: 38px!important;
+    }
+    .before-consultation__section {
+        display: flex;
+        height: 100%;
+    }
+    .before-consultation__picture {
+        display: none!important;
+    }
+    .before-consultation__banner {
+        background-image: url(../img/consultations/before-consultations.png);
+        width: 50%;
+        background-size: cover;
+        background-position: 10% 50%;
+    }
+    .before-consultation {
+        background-color: #f5eee7;
+        width: 50%;
+        display: grid;
+    }
+    .after-consultation__section {
+        display: flex;
+        height: 100%;
+    }
+    .after-consultation__picture {
+        display: none!important;
+    }
+    .after-consultation__banner {
+        background-image: url(../img/consultations/after-consultations.png);
+        width: 50%;
+        background-size: cover;
+        background-position: 83% 50%;
+    }
+    .after-consultation {
+        background-color: #f5eee7;
+        width: 50%;
+        display: grid;
+    }
+}
+
+@media (min-width: 425px) {
+    .before-consultation__picture {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .after-consultation__picture {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .icon-list__inner img {
+        width: 20px;
+    }
+}
+
+@media (min-width: 375px) {
+    .before-consultation__picture {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .after-consultation__picture {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .icon-list__inner img {
+        width: 20px;
+    }
+}
+
+@media (min-width: 320px) {
+    .before-consultation__picture {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .after-consultation__picture {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .before-consultation__h2 {
+        font-family: 'Martel', sans-serif;
+        font-weight: bold;
+        color: #25406e;
+        font-size: 34px;
+    }
+    .consultation__padding {
+        padding: 15px 0;
+    }
+    .consultation__padding-line {
+        height: 3px;
+        width: 10%;
+        background-color: rgb(9, 157, 208);
+    }
+    .before-consultation__text-content {
+        font-family: 'Lato', sans-serif;
+        color: rgb(77,76,76);
+        font-size: 19px;
+    }
+    .before-consultation {
+        background-color: #f5eee7;
+    }
+    .before-consultation__container {
+        padding-top: 90px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 90px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .before-consultation__text-content-italic {
+        font-family: 'Lato', sans-serif;
+        color: #8f8f8f;
+        font-size: 17px;
+    }
+    .after-consultation__text-content-italic {
+        font-family: 'Lato', sans-serif;
+        color: #8f8f8f;
+        font-size: 17px;
+    }
+    .icon-list__inner {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start!important;
+        gap: 10px;
+    }
+    .icon-list__inner img {
+        width: 20px;
+    }
+    .after-consultation {
+        background-color: #F0E7DF;
+    }
+    .after-consultation__container {
+        padding-top: 90px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 90px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .after-consultation__h2 {
+        font-family: 'Martel', sans-serif;
+        font-weight: bold;
+        color: #25406e;
+        font-size: 34px;
+    }
+    .after-consultation__text-content {
+        font-family: 'Lato', sans-serif;
+        color: rgb(77,76,76);
+        font-size: 19px;
+        padding-bottom: 15px;
+    }
+    .before-consultation__text-content {
+        font-family: 'Lato', sans-serif;
+        color: rgb(77,76,76);
+        font-size: 19px;
+        padding-bottom: 15px;
+    }
+    #consultation-button {
+        background-color: var(--button-background-color);
+        border: none;
+        color: var(--button-text-inside-color);
+        padding: 18px 50px;
+        text-align: center;
+        text-decoration: none!important;
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        font-size: 16.5px;
+        font-weight: 700;
+        margin-top: 50px;
+        border-radius: 7px;
+        text-decoration: underline;
+        font-family: 'Lato', sans-serif;
+        font-size: 16.5px;
+        }
+    #consultation-button:hover {
+        background-color: rgb(34, 34, 34)
+        }
+    .fa-solid {
+        margin-left: 10px;
+      }
+    .before-consultation__icon-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .after-consultation__icon-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .icon-list__text {
+        font-family: 'Lato', sans-serif;
+        font-size: 17px;
+        color: var(--services-paragraph-color);
+        font-weight: 400;
+    }
+}
