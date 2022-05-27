@@ -6,7 +6,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;          
-    min-height: 400px; 
+    min-height: 600px; 
 }
 
 .first-content{
@@ -75,13 +75,14 @@
 
 .section-r{
     background-color: rgba(7, 7, 73, 0.849);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .text-content{
     color: white;
-    padding-top: 70px;
-    padding-left: 10px;
-    font-size: 12px;
+    padding-top: 70px;    
+    font-size: 18px;
 }
 
 .line-1{
@@ -99,9 +100,9 @@
     padding-top: 15px;
     padding-left: 15px;    
     margin-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
     background-color: rgba(0, 0, 255, 0.137);
-
+    
 }
 
 .photo{
@@ -114,13 +115,14 @@
 }
 
 .text-photo{
-    color: white;    
+    color: white; 
+    font-size: 20px;   
 }
 
 .link-1 a {
   text-decoration: none;
   color: white;
-  font-size: 10px;
+  font-size: 15px;
   
 }
 
@@ -135,27 +137,53 @@
     }  
 
     .text-content{
-        width: 260px;
+        width: 350px;
         margin-left: 200px;
         margin-bottom: 30px;
         margin-top: -20px;
+        font-size: 18px;
     }
     
     .box-photo-all{
           display: grid;
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 1fr 1fr;           
-          width: 450px;   
+          width: 800px;   
           margin-top: 50px;
           margin-bottom: 50px;
-          margin-left: 30px;     
+          margin-left: 30px;
+
     }
 
     .box-photo{
-        width: 230px;
-        padding: 20px;
+        width: 450px;
+        padding: 50px;
         margin-bottom: 10px;
+    }
 
+    .photo{
+        width: 50px;
+        background-color: white;
+        padding: 10px;
+        border-radius: solid 60px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .text-photo{
+        color: white;
+        font-size: 20px;    
+    }
+    
+    .link-1 a {
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+      
+    }
+    
+    .link-1 a:hover{
+        text-decoration: underline;
     }
 
 }
