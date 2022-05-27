@@ -73,14 +73,22 @@ h3 {
     padding: 0px 20px 50px 20px;
 }
 
-.hospital__content {
-    font-family: Martel, serif;
-    font-size: 21px;
-    line-height: 31.5px;
-    font-weight: 700;
-    color: rgb(34, 34, 34);
+.carousel_hospitals {
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 0 5%;
+    max-height: 150px;
 }
 
-.hospital__photo {
+.carousel_hospitals .slide_hospitals {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_hospitals {
     width: 350px;
+    margin: 10px;
+    padding: 2px;
+    height: 250px;
 }
