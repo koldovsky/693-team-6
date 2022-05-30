@@ -1,10 +1,9 @@
 
 #schedule-option {
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/schedule-bgd/schedule-background.png);
-    opacity: 0.95;
     background-size: cover;
     background-position: center;
-    height: 590px;
+    height: 550px;
     background-attachment: fixed;
     overflow-x: hidden;
     margin: 0 auto;
@@ -49,23 +48,38 @@
 
 }
 
-.schedule-form {
-    
-}
 
-.form-input-bgd {
+.form-input {
     padding: 14px 30px;
     font-size: 16px;
     border-radius: 6px 6px 6px 6px;
     line-height: 1.2;
     background-color: var(--form-box-bgd);
-   
-}
-
-.placeholder_bgd {
-    border-color:#f5eee7;
-    background-color:rgba(36, 37, 40, 0.82);
+    width: 350px;
+    text-align: left;
     
 }
+
+.input-first-consult {
+    background-color: var(--form-box-bgd);
+    text-align: left;
+        
+}
+
+.schedule-form-btn {
+    background-color: var(--button-background-color);
+    border: none;
+    color: var(--button-text-inside-color);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 7px;
+    width: 350px;
+    height: 43px;
+}
+
 
 
