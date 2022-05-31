@@ -87,10 +87,11 @@ h3 {
 }
 
 .img_hospitals {
-    width: 350px;
+    width: 250px;
     margin: 10px;
     padding: 2px;
     height: 250px;
+    display: block;
 }
 .label_hospital{
         font-family: Martel, serif;
@@ -100,15 +101,16 @@ h3 {
         color: rgb(34, 34, 34);
 }
 .hospitals_button{
-    font-size: 50px;
+    font-size: 20px;
     background-color: #F5EEE7;
     color: #7CBDE3;
     font-weight: 600;
     position: relative;
-    bottom: 35px;
-    right: 10px;
+    bottom: 35px;;
 }
 .button_forward__hp{
     position: relative;
-    left: 20px;
+}
+.carousel_hospitals{
+    max-width: 100%;
 }
