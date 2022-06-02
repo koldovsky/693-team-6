@@ -63,7 +63,11 @@
 .input-first-consult {
     background-color: var(--form-box-bgd);
     text-align: left;
-        
+    
+}
+
+.input-first-consult:focus {
+    outline: none;
 }
 
 .schedule-form-btn {
