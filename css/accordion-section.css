@@ -60,7 +60,7 @@
     } 
     .section-accordion-img {
         grid-column: 1;
-        grid-row: 1/4;
+        grid-row: 1/5;
     }
     .section-accordion-h {
         grid-column: 2;
