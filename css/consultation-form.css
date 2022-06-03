@@ -3,18 +3,27 @@
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/schedule-bgd/schedule-background.png);
     background-size: cover;
     background-position: center;
-    height: 550px;
+    height: 650px;
     background-attachment: fixed;
     overflow-x: hidden;
     margin: 0 auto;
+    padding-top: 15px ;
+  /*padding-left: 15px;
     display: flex;
     flex-direction: row;
     align-items:center;
-    justify-content: space-around;
+    justify-content: space-around; */
 }
 
 .schedule-option-text {
-    padding-left: -10px;
+   padding-left: 40px;
+   max-width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   
+
 }
 .schedule-header {
     color: var(--schedule-title-color);
@@ -26,6 +35,7 @@
     width: 58px;
     height: 3px;
     background-color: var(--button-background-color);
+   /* padding-left: -20px; */
 }
 
 .schedule-info-text {
@@ -48,6 +58,15 @@
 
 }
 
+.schedule-form {
+    padding-top: -5px;
+    padding-left: 40px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 .form-input {
     padding: 14px 30px;
@@ -81,9 +100,26 @@
     font-size: 15px;
     font-weight: 400;
     border-radius: 7px;
-    width: 350px;
+    width: 100%;
     height: 43px;
 }
 
+@media (min-width:700px) {
+    #schedule-option {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;    
+    }
+
+    .schedule-option-text {
+        grid-row: 1;
+        grid-column: 1/2;       
+    }
+
+    .schedule-form {
+        grid-row: 1;
+        grid-column: 2/3;   
+    }
+}
 
 
