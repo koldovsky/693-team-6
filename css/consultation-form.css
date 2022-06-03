@@ -1,13 +1,13 @@
 
 #schedule-option {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/schedule-bgd/schedule-background.png);
+    background-image: linear-gradient( rgba(36, 37, 40, 0.82), rgba(36, 37, 40, 0.82) ), url(../img/schedule-bgd/schedule-background.png);
     background-size: cover;
-    background-position: center;
-    height: 650px;
-    background-attachment: fixed;
+    background-position: 50% 0;
+    /* background-attachment: fixed; */
     overflow-x: hidden;
     margin: 0 auto;
-    padding-top: 15px ;
+    padding: 90px 0;
+
   /*padding-left: 15px;
     display: flex;
     flex-direction: row;
@@ -15,13 +15,20 @@
     justify-content: space-around; */
 }
 
+.schedule-container {
+    max-width: ;
+
+}
+.schedule-col {
+    padding: 0 40px;
+    max-width: 100%;
+}
+
 .schedule-option-text {
-   padding-left: 40px;
-   max-width: 100%;
-   display: flex;
+   /* display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: flex-start;
+   align-items: flex-start; */
    
 
 }
@@ -58,35 +65,34 @@
 
 }
 
-.schedule-form {
-    padding-top: -5px;
-    padding-left: 40px;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
 
 .form-input {
+    /* padding: 14px 30px;
+    font-size: 16px;
+    border-radius: 6px 6px 6px 6px;
+    line-height: 1.2;
+    background-color: var(--form-box-bgd);
+    width: 100%;
+    text-align: left; */
+    
+}
+
+.input-first-consult {
     padding: 14px 30px;
     font-size: 16px;
     border-radius: 6px 6px 6px 6px;
     line-height: 1.2;
     background-color: var(--form-box-bgd);
-    width: 350px;
+    width: 100%;
     text-align: left;
-    
-}
-
-.input-first-consult {
-    background-color: var(--form-box-bgd);
-    text-align: left;
+    display: block;
+    color: #fff;
     
 }
 
 .input-first-consult:focus {
-    outline: none;
+    outline: auto;
+    outline-color: #3b99fc;
 }
 
 .schedule-form-btn {
@@ -104,22 +110,37 @@
     height: 43px;
 }
 
+@media (min-width:420px) {
+    .schedule-form-btn, 
+    .input-first-consult {
+        width: 350px;
+    }
+}
+
 @media (min-width:700px) {
     #schedule-option {
+        background-attachment: fixed;
+    }
+
+    .schedule-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;    
+        grid-template-columns: 3fr 2fr;
+        grid-template-rows: 1fr;
+        max-width: 1200px;
+        margin: auto;    
     }
 
     .schedule-option-text {
-        grid-row: 1;
-        grid-column: 1/2;       
+        /* grid-row: 1;
+        grid-column: 1/2;        */
     }
 
     .schedule-form {
-        grid-row: 1;
-        grid-column: 2/3;   
+        /* grid-row: 1;
+        grid-column: 2/3;  */
+        padding-top: 0;  
     }
 }
+
 
 
