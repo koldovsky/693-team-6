@@ -112,6 +112,13 @@ margin-right: 10px;
     
 }
 
+.clock{
+    color: white;
+    font-size: 30px;
+    padding-top: 70px;
+    font-style: italic;
+}
+
 .box-photo{    
     padding: 40px;    
     margin-left: 20px;
@@ -154,8 +161,7 @@ margin-right: 10px;
     .section-r {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        padding-top: 100px;
+        grid-template-rows: 1fr;        
         padding-bottom: 100px;                
     }
 
@@ -163,6 +169,7 @@ margin-right: 10px;
         grid-column: 1;
         grid-row: 1;
         width: 400px;
+        padding-top: 80px;        
         margin-left: auto;               
     }
 
@@ -171,6 +178,7 @@ margin-right: 10px;
         grid-row: 1;                
         display: grid;
         grid-template-columns: 1fr 1fr; 
+        padding-top: 80px;
         margin-right: auto;   
     }
 
