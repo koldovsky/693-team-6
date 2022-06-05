@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Lato&family=Montserrat:wght@400;700&display=swap');
+
+*,*:before,*:after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+:root {
+    --header-dark-color: rgb(37, 64, 110);
+    --header-light-color: rgb(255, 255, 255);
+    --button-background-color: rgb(9, 157, 208);
+    --button-text-inside-color: rgb(255, 255, 255);
+    --subheader-dark-color: rgb(77, 76, 76);
+    --main-text-dark-color: rgb(100, 100, 100);
+    --subheader-light-color: rgb(255, 255, 255);
+    --main-text-light-color: rgb(217, 217, 217);
+    --background-light-color: rgb(245, 238, 231);
+    --background-dark-color: rgb(37, 64, 110);
+    font-family: 'Lato', sans-serif;
+    --blog-section-header: rgb(68, 173, 107);
+    --blog-border-light: #FAF6F3;
+    --services-section-color: #25406E;
+    --section-paragraph-color: #4D4C4C;
+    --carousel-header-color: #222222D1;
+    --services-paragraph-color: #646464;
+    --schedule-title-color: #FFFFFF;
+    --schedule-info-text: #D9D9DF;
+    --schedule-info-note: #BCBBBB;
+    --form-box-bgd: #242528D1;
+    --accordion-button-color:#222222;
+
+}
