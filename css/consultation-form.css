@@ -110,7 +110,7 @@
     height: 43px;
 }
 
-@media (min-width:420px) {
+@media (min-width:410px) {
     .schedule-form-btn, 
     .input-first-consult {
         width: 350px;
