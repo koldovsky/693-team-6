@@ -260,6 +260,7 @@ a:focus:after {
   color: var(--services-section-color);
   padding: 0 15px;
   margin-bottom: -10px;
+  font-weight: 700;
 }
 
 .header-banner__header-text {
@@ -267,6 +268,7 @@ a:focus:after {
   font-size: 64px;
   color: var(--services-section-color);
   padding: 0 15px;
+  font-weight: 700;
 }
 
 .header-banner__text {
