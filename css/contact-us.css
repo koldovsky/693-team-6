@@ -119,8 +119,8 @@ form input {
 }
 
 @media (min-width: 1440px) {
-    .contact-us__title {
-        font-size: 42px!important;
+    /* .contact-us__title {
+        font-size: 42px;
     }
     .inner {
         padding: 20px 110px 100px 110px;
@@ -155,16 +155,38 @@ form input {
         font-weight: 400;
         font-family: Lato, sans-serif;
         font-size: larger;
-    }
+    } */
 }
 
-@media (min-width: 1024px) {
-
+@media (min-width: 992px) {
+    .contact-us__title {
+        font-size: 50px;
+        width: 450px;
+    }
+    .inner {
+       padding: 50px 20px;
+    }
 }
 
 @media (min-width: 768px) {
     .contact-us__title {
         font-size: 38px;
+        width: 350px;
+    }
+    .contact-us-19px {
+        font-size: 19px;
+        color: white;
+        font-family: Lato, sans-serif;
+        font-weight: 300;
+        width: 300px;
+        padding-bottom: 20px;
+    }
+    .contact-us-17px {
+        font-size: 17px;
+        color: #d9d9dff5;
+        font-family: Lato, sans-serif;
+        font-weight: 300;
+        width: 230px;
     }
     .inner {
         display: flex;
@@ -184,7 +206,18 @@ form input {
         column-gap: 30px;
         row-gap: 30px;
     }
-
+    .contact-us-map {
+        width: 350px;
+    }
+    .form-background {
+        width: 0 auto;
+        height: 639px;
+        margin: 30px 24px -20px 24px;
+        background-color: #FFFFFF0A;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
 }
 
 @media (min-width: 425px) {

@@ -1,15 +1,14 @@
-(function() {
-const btnNavEl = document.querySelector(".nav-btn");
-const headerEl = document.querySelector(".header");
+(function () {
+  const btnNavEl = document.querySelector(".nav-btn");
+  const headerEl = document.querySelector(".header");
 
-btnNavEl.addEventListener("click", function () {
-  headerEl.classList.toggle("nav-open");
-});
+  btnNavEl.addEventListener("click", function () {
+    headerEl.classList.toggle("nav-open");
+  });
 
-const bodyEl = document.querySelector(".body");
+  const bodyEl = document.querySelector(".body");
 
-btnNavEl.addEventListener("click", function () {
-  bodyEl.classList.toggle("lock-scroll");
-});
-
+  btnNavEl.addEventListener("click", function () {
+    bodyEl.classList.toggle("lock-scroll");
+  });
 })();
