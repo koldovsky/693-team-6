@@ -32,7 +32,7 @@
 
 .play {
   border-radius: 100px;
-    
+  margin: 10px;  
 }
 
 
@@ -136,7 +136,7 @@ margin-right: 10px;
     border-radius: 70px;
     width: 60px;
     padding: 15px;
-    background-color: white;
+    background-color: rgb(243, 239, 239);    
 }
 
 .text-photo{
