@@ -108,6 +108,11 @@
     .nav-icons {
       flex-wrap: wrap;
     }
+
+    .nav-icons img {
+      width: 30px;
+      height: 30px;
+    }
   
     .icon:nth-child(3n) {
       flex-basis: 100%;
