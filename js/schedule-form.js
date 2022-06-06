@@ -1,18 +1,28 @@
-const form = document.querySelector('#schedule-form');
-
-form.addEventListener('submit', e => {
-    e.preventDefault();
-    const formData = new FormData(form);
-    console.dir (form);
-
-    fetch("lieman.deutsh@gmail.com", {
-      method: "POST",
-      headers: { "Content-Type": "application/form-data" },
-      body: new URLSearchParams(formData).toString(),
-    })
-      .then((resp) => {
-      console.dir (resp)
-      })
-      .catch((error) => console.log('Sending form failed'));
-})
-
+(function () {
+  const form = document.querySelector('#schedule-form');
+  function handleSubmit(event) {
+    event.preventDefault();
+    const status = document.querySelector('.contact-form-status');
+    fetch(form.action, {
+      method: form.method,
+      body: new FormData(event.target),
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then( () => {
+      
+      status.innerHTML = "Thanks for your submission!";
+      form.reset();
+      setTimeout (() => {
+        status.innerHTML = "";
+      },3000);
+    }).catch( () => {
+      status.innerHTML = "Oops! There was a problem submitting your form" 
+      setTimeout (() => {
+        status.innerHTML = "";
+      },3000);
+    });
+    
+  }
+  form.addEventListener("submit", handleSubmit)
+})();
