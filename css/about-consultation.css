@@ -1,0 +1,410 @@
+body {
+	max-width: 1200px;
+}
+
+.personal-info p {
+	padding-top: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.blue-color {
+	color: #6EBAD8ff;
+}
+
+.personal-info a {
+	text-decoration: none;
+	color: black;
+}
+
+.personal-info a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.consulting {
+	height: 200px;
+	width: 100%;
+	background-color: darkblue;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-part {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.left-part h2 {
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+.left-part h3 {
+	font-size: 34px;
+	margin-left: 40px;
+}
+
+.right-part {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.right-part p{
+    font-size: 17px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.right-part a{
+	color: white;
+}
+
+.consulting-img img {
+	height: 100%;
+	width: 100%;
+}
+
+.about-info {
+	width: 100%;
+	margin-top: 50px;
+	padding-bottom: 100px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#about-consulting {
+	height: 530px;
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.about-info h4 {
+	font-size: 34px;
+	padding-bottom: 20px;
+}
+
+.blue-line {
+	height: 3px;
+	width: 50px;
+	background-color: darkblue;
+	margin-top: -20px;
+}
+
+.first-par {
+	font-size: 19px;
+}
+
+.second-par {
+	font-size: 17px;
+}
+
+#steps-section {
+	height: 700px;
+	background-color: #F5EEE7ff;
+	margin-top: -40px;
+	 width: 100%;
+	/*padding-bottom: 100px;*/
+}
+
+.steps-section-intro {
+text-align: center;
+}
+
+.blue-line-steps {
+	height: 3px;
+	width: 50px;
+	background-color: darkblue;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -20px;
+}
+
+.steps-section-intro h3 {
+	font-size: 42px;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.steps-section-intro p {
+	font-size: 19px;
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+/* Steps section SCC */ 
+
+.three-steps {
+	display: flex;
+}
+
+.steps-img {
+	height: 80px;
+	width: 80px;
+	background-color: white;
+	border-radius: 50px;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#first-step,#second-step,#third-step {
+	padding-left: 40px;
+	padding-right: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+
+#first-step .steps-img {
+background-image: url("https://res2.weblium.site/res/60f820acc5ecef0021ffd377/60f83567c5ecef00210073b6");
+background-size: 40%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#second-step .steps-img {
+background-image: url("https://res2.weblium.site/res/60f820acc5ecef0021ffd377/60f8356761fd4a0021d10fda");
+background-size: 40%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#third-step .steps-img {
+background: url("https://res2.weblium.site/res/60f820acc5ecef0021ffd377/60f83566cfd99a0022834300");
+background-size: 40%;
+background-position: center;
+background-repeat: no-repeat;
+background-color: white;
+}
+
+.steps-header {
+	font-size: 21px;
+	padding-top: 15px;
+}
+
+.steps-par {
+	font-size: 17px;
+}
+
+
+/* Questions area */
+
+#consulting-questions-area {
+	height: 920px;
+	width: fit-content;
+	display: flex;
+}
+
+.question-img img {
+
+	height: 920px;
+	width: 100%;
+}
+
+.questions-text {
+	width: 80%;
+	padding-left: 20px;
+	padding-top: 100px;
+
+}
+
+.questions-text h4 {
+	padding-bottom: 20px;
+	font-size: 42px;
+}
+
+.questions-text .blue-line {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.questions-text p {
+	font-size: 19px;
+}
+
+#request-section {
+	height: 400px;
+	background-color: #029DD0ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#request-section h3 {
+    font-size: 42px;
+    color: white;
+    margin-top: -90px;
+}
+
+#request-section p {
+    font-size: 19px;
+    color: white;
+}
+
+.button-contact {
+	height: 52px;
+	width: 270px;
+	background-color: black;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.button-contact a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.button-contact a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.button-contact:hover {
+	cursor: pointer;
+	background-color: #25406Eff;
+}
+
+/*.section-par-one {
+ padding-bottom: -20px;
+}
+
+.section-par-two {
+padding-top: -50px;
+}
+*/
+/*@media section*/
+
+@media (max-width: 700px) {
+	.consulting {
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+    .left-part {
+    	padding-top: 30px;
+    	padding-left: 10px;
+    	padding-bottom: 30px;
+    }
+    .right-part {
+    	padding-left: 10px;
+    	padding-right: 10px;
+    	padding-bottom: 30px;
+    }
+	#about-consulting {
+		display: flex;
+		flex-direction: column;
+	}
+	.about-info {
+		height: 530px;
+		width: fit-content;
+		margin-bottom: 400px;
+    }
+    #steps-section {
+    	margin-top: 300px;
+    	height: 850px;
+    }
+    .three-steps {
+    	display: flex;
+    	flex-direction: column;
+    }
+    #consulting-questions-area {
+    	display: flex;
+    	flex-direction: column;
+    }
+    .question-img img {
+    	height: 500px;
+    	width: auto;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+    }
+    .questions-text {
+     width: 100%;
+     margin-top: -20px;
+     height: 100%;
+    }
+    .accordion-item button {
+    	width: 100%px;
+    	padding-right: -5px;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    #request-section {
+    	margin-top: 200px;
+    	text-align: center;
+    }
+}
+
+/*Second @media*/
+
+@media (max-width: 450px) {
+	body {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.consulting {
+		height: 300px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+    #steps-section {
+    	margin-top: 300px;
+    	height: 1100px;
+    }
+    .question-img img {
+    	height: 500px;
+    	width: 100%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+    }
+    #request-section {
+    	margin-top: 400px;
+    	text-align: center;
+    }
+}
+
+@media (max-width: 350px) {
+	#steps-section {
+    	margin-top: 300px;
+    	height: 1200px;
+    }
+	.question-img img {
+		/*margin-top: 100px;*/
+    	height: 500px;
+    	width: 100%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
