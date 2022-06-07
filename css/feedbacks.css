@@ -4,8 +4,23 @@
     text-align: center;
     padding-bottom: 120px;
 }
+.carousel-feedbacks{
+height: 350px;
+}
+@media(min-width:720px){
+    .carousel-feedbacks{
+        height: 450px;
+        }
+}
+@media(min-width:1100px){
+    .carousel-feedbacks{
+        height: 550px;
+        }
+}
+
 .feedback_photo {
     width: 25%;
+    
 }
 .line__hr {
     margin: 0 auto;
@@ -48,8 +63,10 @@ h3 {
     font-size: 18px;
     line-height: 1.4;
     font-weight: 400;
+    padding: 10px;
     color: rgba(217, 217, 223, 0.96);
 }
+
 .hospitals {
     background: #F5EEE7;
     display: block;
